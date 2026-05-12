@@ -1,7 +1,7 @@
 body{
     color:white;
     text-align: center;
-    background-image: url('Images/milkyway.jpg');
+    background-image: url('milkyway.jpg');
 }
 
 td > img{
@@ -75,12 +75,12 @@ button{
     height:50px;
     border-radius: 50px;
     border:none;
-    background:url(Images/buttongalaxy.jpg) no-repeat fixed center;
+    background:url(buttongalaxy.jpg) no-repeat fixed center;
 }
 
 button:hover{
     cursor: pointer;
-    background: url(Images/purplegalaxy.jpg) no-repeat fixed center ;
+    background: url(purplegalaxy.jpg) no-repeat fixed center ;
 }
 
 .active{
