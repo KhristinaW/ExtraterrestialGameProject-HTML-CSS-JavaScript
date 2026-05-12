@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraterrestrial</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- defer means the script runs AFTER the page has loaded -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>Extraterrestrial</h1>
+
+    <div class="container">
+
+        <!-- The game board table gets built here by JavaScript -->
+        <div class="game-board" id="game-board"></div>
+
+        <!-- Score display - JavaScript will update this -->
+        <div id="score-display">Points: 10</div>
+
+        <!-- Message box - JavaScript will put messages here -->
+        <div id="message-box"></div>
+
+        <!-- No onclick here! The event listener is in script4.js -->
+        <button id="roll-btn">🎲 Roll</button>
+        <button class="active" id="try-again" onclick="resetGame()">Try Again</button>
+        <button class="active" id="play-again" onclick="resetGame()">Play Game</button>
+        
+
+    </div>
+
+</body>
+</html>
