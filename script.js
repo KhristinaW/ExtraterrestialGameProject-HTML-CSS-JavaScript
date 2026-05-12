@@ -2,16 +2,16 @@
 //          Each object has a "name" and a "file" property
 // -----------------------------------------------------------
 const gameImages = [
-    { name: "ship",    file: "images/ship.png"   },
-    { name: "earth",   file: "images/Earth.webp"    },
-    { name: "neptune", file: "images/neptune.png"   },
-    { name: "mars",    file: "images/mars.webp"     },
-    { name: "sun",     file: "images/sun.webp"      },
-    { name: "jupiter", file: "images/jupiter.webp"  },
-    { name: "moon",    file: "images/moon.webp"     },
-    { name: "uranus",  file: "images/uranus.png"    },
-    { name: "venus",   file: "images/venus.png"     },
-    { name: "mercury", file: "images/mercury.png"   },
+    { name: "ship",    file: "ship.png"   },
+    { name: "earth",   file: "Earth.webp"    },
+    { name: "neptune", file: "neptune.png"   },
+    { name: "mars",    file: "mars.webp"     },
+    { name: "sun",     file: "sun.webp"      },
+    { name: "jupiter", file: "jupiter.webp"  },
+    { name: "moon",    file: "moon.webp"     },
+    { name: "uranus",  file: "uranus.png"    },
+    { name: "venus",   file: "venus.png"     },
+    { name: "mercury", file: "mercury.png"   },
 ];
 
 // This helper function loops through the array above
